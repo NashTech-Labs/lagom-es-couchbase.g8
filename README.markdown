@@ -16,12 +16,24 @@ Template uses Couchbase Lagom Plugin to implement ES and CQRS.
 The template uses PersistentEntity with Couchbase as a backend. 
 Also, the read-side processors consumes events and update a couchbase document that can be queried.
 
+## Clone the Project
+
+- Execute the following commands in the terminal
+
+    ```
+     sbt new knoldus/lagom-kafka-consumer-only.g8
+     
+     cd lagom-kafka-consumer-only
+     
+     sbt clean compile    
+    ```
+
 >## How to run the Application
 
 - Run Couchbase service.
 
-      - Docker image can be used to run Couchbase locally without installation.
-      - Or use the link to install Couchbase: https://docs.couchbase.com/server/6.0/install/ubuntu-debian-install.html
+  - Docker image can be used to run Couchbase locally without installation.
+  - Or use the link to install Couchbase: <https://docs.couchbase.com/server/6.0/install/ubuntu-debian-install.html>
 
 - In the application.conf in the application, set the following configuration values or default will be used:
 
