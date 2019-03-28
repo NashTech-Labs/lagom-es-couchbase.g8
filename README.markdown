@@ -21,11 +21,12 @@ Also, the read-side processors consumes events and update a couchbase document t
 - Execute the following commands in the terminal
 
     ```
-     sbt new knoldus/lagom-kafka-consumer-only.g8
+     sbt new knoldus/lagom-es-couchbase.g8
      
-     cd lagom-kafka-consumer-only
+     cd lagom-es-couchbase
      
-     sbt clean compile    
+     sbt clean compile
+         
     ```
 
 >## How to run the Application
