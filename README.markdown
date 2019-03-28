@@ -85,6 +85,8 @@ Also, the read-side processors consumes events and update a couchbase document t
     Alternatively you can also use a curl command to make a write request to the Couchbase using the Lagom application
 
     ```
-    curl -X POST http://localhost:9000/api/hello/Yo -d '{"message": "Hey One??"}'
+    curl -X POST http://localhost:9000/api/greet/Akka '{"message": "Hey One??"}'
     ```
+    
+ Note: Postman collection can be found in g8 folder under /postman-collection
 
