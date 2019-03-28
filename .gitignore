@@ -1,0 +1,9 @@
+target/
+boot/
+lib_managed/
+src_managed/
+project/plugins/project/
+/target/
+/src/main/g8/target/
+/project/target/
+/.idea/
